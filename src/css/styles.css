@@ -7,9 +7,13 @@ body {
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #fafafa;
+  background-color: #0cb3b0;
   color: #212121;
   line-height: 1.5;
+}
+
+li {
+  list-style-type: none;
 }
 
 #search-box {
@@ -17,4 +21,21 @@ body {
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+}
+
+.country-list {
+  padding-left: 0;
+  font-weight: 600;
+}
+
+.label {
+  font-size: large;
+  font-weight: bold;
+}
+.country-flag{
+  max-height: 120px;
+}
+
+.mini-flag {
+  max-height: 16px;
 }
