@@ -37,5 +37,6 @@ li {
 }
 
 .mini-flag {
-  max-height: 16px;
+  min-height: 16px;
+  max-height: 18px;
 }
